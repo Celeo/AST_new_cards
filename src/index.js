@@ -108,11 +108,15 @@ const Controls = () => {
     return count > 1
   }
   const divinationStrength = () => {
-    let uniqueCount = new Set(seals.filter(s => s !== EMPTY)).size
-    if (uniqueCount === 2) {
+    let nonEmptySeals = seals.filter(s => s !== EMPTY)
+    if (nonEmptySeals.length !== 3) {
+      return 0
+    }
+    const uniqueSize = new Set(nonEmptySeals).size
+    if (uniqueSize === 1 || uniqueSize === 2) {
       return 3
     }
-    if (uniqueCount === 3) {
+    if (uniqueSize === 3) {
       return 6
     }
     return 0
