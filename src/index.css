@@ -1,0 +1,23 @@
+.content {
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+button {
+    margin-right: 0.5rem;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+    margin-left: 1rem;
+}
