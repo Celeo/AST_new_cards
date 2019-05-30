@@ -1,6 +1,6 @@
-# TBD
+# AST New Cards
 
-TBD
+New card system in FFXIV 5.0 for the AST job.
 
 ## Setup
 
