@@ -1,6 +1,7 @@
 .content {
     margin-left: 5rem;
     margin-top: 4rem;
+    width: 50%;
 }
 
 button {
@@ -20,4 +21,13 @@ button {
 .float-right {
     float: right;
     margin-left: 1rem;
+}
+
+.button-row {
+    display: flex;
+}
+
+.skill-button {
+    display: flex;
+    margin: auto;
 }
